@@ -1,0 +1,130 @@
+<div class="container">
+    <div class="end">
+        <ul class="Mul" nz-menu [nzMode]="'vertical'">
+            <li nz-submenu nzTitle="მობილურები" nzIcon="mobile">
+              <ul>
+                  <ul>
+                    <li nz-menu-item>apple</li>
+                    <li nz-menu-item>samsung </li>
+                  </ul>
+              </ul>
+            </li>
+            <li nz-submenu (nzOpenChange)="change($event)" nzTitle="ტაბები" nzIcon="tablet">
+              <ul>
+                <li nz-menu-item> apple</li>
+                <li nz-menu-item>samsung </li>
+              </ul>
+            </li>
+            <li nz-submenu nzTitle="ლეპტოპები IT" nzIcon="laptop">
+              <ul>
+                <li nz-menu-item>apple </li>
+                <li nz-menu-item>samsung</li>
+               
+              </ul>
+            </li>
+            <li nz-submenu nzTitle="სმარტ გაჯეტები" nzIcon="home">
+                <ul>
+                  <li nz-menu-item>TV</li>
+                  <li nz-menu-item>glass</li>
+                  
+                </ul>
+              </li>
+              <li nz-submenu nzTitle="აუდიო სისტემა" nzIcon="audio">
+                <ul>
+                  <li nz-menu-item>Marshall</li>
+                  <li nz-menu-item>JBL</li>
+                  
+                </ul>
+              </li>
+              <li nz-submenu nzTitle="Gaiming" nzIcon="dingding">
+                <ul>
+                  <li nz-menu-item>Pc</li>
+                  <li nz-menu-item>Xbox</li>
+                
+                </ul>
+              </li>
+              <li nz-submenu nzTitle="TV | მონიტორები" nzIcon="fullscreen">
+                <ul>
+                  <li nz-menu-item>toshiba</li>
+                  <li nz-menu-item>samsung</li>
+                  
+                </ul>
+              </li>
+              <li nz-submenu nzTitle="ფოტო ვიდეო" nzIcon="aim">
+                <ul>
+                  <li nz-menu-item>samsung</li>
+                  <li nz-menu-item>canon</li>
+                  
+                </ul>
+              </li>
+
+          </ul>
+
+    </div>
+    <div class="top">
+        <ngb-carousel >
+            <ng-template ngbSlide >
+                <div class="picsum-img-wrapper" >
+                    <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F52cb6e0f-f373-4cf3-b51b-dbcb7a5acb57_Thumb.jpeg&w=1920&q=75" alt="Random first slide" />
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F1788f299-5b1e-4410-88de-8f91fa59dfea_Thumb.jpeg&w=1920&q=75" alt="Random second slide" />
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F15f7cd7b-c5f3-4a27-920c-2dca5c6c332e_Thumb.jpeg&w=1920&q=75" alt="Random second slide" />
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F5ed2a399-e76d-4950-abfe-5a2b43a3d036_Thumb.jpeg&w=1920&q=75" alt="Random second slide" />
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fb014220d-54fd-4c61-9c27-3034bbf3f55a_Thumb.jpeg&w=1920&q=75" alt="Random second slide" />
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Ffd6a89cc-8f6a-4b16-b252-bcfa7868fbd7_Thumb.jpeg&w=1920&q=75" alt="Random second slide" />
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2F3f75b4f5-680e-4c72-88e9-37229fc69595_Thumb.jpeg&w=1920&q=75" alt="Random third slide" />
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </ng-template>
+
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                    <img src="https://zoommer.ge/_next/image?url=https%3A%2F%2Fs3.zoommer.ge%2Fsite%2Fb0f10a38-c5db-4528-82c5-d97898fb3949_Thumb.jpeg&w=1920&q=75" alt="Random third slide" />
+                </div>
+                <div class="carousel-caption">
+                </div>
+            </ng-template>
+        </ngb-carousel>
+</div>

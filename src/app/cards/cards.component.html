@@ -1,0 +1,107 @@
+<div class="MainContainer">
+    <div class="card-text">
+          <h3>მობილურები</h3>
+</div>
+    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="5" free-mode="true">
+        <swiper-slide *ngFor="let mobiles of mobile">
+            <div class="card">
+                <div class="card-image">
+                    <img [src]="mobiles.image">
+                </div>
+                <div class="card-content">
+                    <div class="card-title">{{mobiles.title}}</div>
+                    <div class="card-description">{{mobiles.description}}</div>
+                    <div class="card-end">
+                        <div class="card-price">{{mobiles.price}}₾</div>
+                        <div class="card-button"> დამატება</div>
+                    </div>
+                </div>
+            </div>
+        </swiper-slide>
+        </swiper-container>
+
+        <div class="card-text">
+            <h3>ლეპტოპები</h3>
+  </div>
+      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="5" free-mode="true">
+          <swiper-slide *ngFor="let laptops of laptop">
+              <div class="card">
+                  <div class="card-image">
+                      <img [src]="laptops.image">
+                  </div>
+                  <div class="card-content">
+                      <div class="card-title">{{laptops.title.slice(0,20)}}</div>
+                      <div class="card-description" >{{laptops.description.slice(0,50)}}</div>
+                      <div class="card-end">
+                          <div class="card-price">{{laptops.price}}₾</div>
+                          <div class="card-button"> დამატება</div>
+                      </div>
+                  </div>
+              </div>
+          </swiper-slide>
+          </swiper-container>
+
+          <div class="card-text">
+            <h3>ტაბები</h3>
+  </div>
+      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="5" free-mode="true">
+          <swiper-slide *ngFor="let tablet of tabs">
+              <div class="card">
+                  <div class="card-image">
+                      <img [src]="tablet.image">
+                  </div>
+                  <div class="card-content">
+                      <div class="card-title">{{tablet.title.slice(0,30)}}</div>
+                      <div class="card-description">{{tablet.description.slice(0,50)}}</div>
+                      <div class="card-end">
+                          <div class="card-price">{{tablet.price}}₾</div>
+                          <div class="card-button"> დამატება</div>
+                      </div>
+                  </div>
+              </div>
+          </swiper-slide>
+          </swiper-container>
+
+          <div class="card-text">
+            <h3>სმარტ გაჯეტები</h3>
+  </div>
+      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="5" free-mode="true">
+          <swiper-slide *ngFor="let smarts of smart">
+              <div class="card">
+                  <div class="card-image">
+                      <img [src]="smarts.image">
+                  </div>
+                  <div class="card-content">
+                      <div class="card-title">{{smarts.title}}</div>
+                      <div class="card-description">{{smarts.description}}</div>
+                      <div class="card-end">
+                          <div class="card-price">{{smarts.price}}₾</div>
+                          <div class="card-button"> დამატება</div>
+                      </div>
+                  </div>
+              </div>
+          </swiper-slide>
+          </swiper-container>
+
+          <div class="card-text">
+            <h3>სათამაშო</h3>
+  </div>
+      <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="5" free-mode="true" >
+          <swiper-slide *ngFor="let gam of gaming">
+              <div class="card">
+                  <div class="card-image">
+                      <img [src]="gam.image">
+                  </div>
+                  <div class="card-content">
+                      <div class="card-title">{{gam.title}}</div>
+                      <div class="card-description">{{gam.description.slice(0,40)}}</div>
+                      <div class="card-end">
+                          <div class="card-price">{{gam.price}}₾</div>
+                          <div class="card-button"> დამატება</div>
+                      </div>
+                  </div>
+              </div>
+          </swiper-slide>
+          </swiper-container>
+</div>
+
